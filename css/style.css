@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: JetBrainsMono;
+    src: url(../fonts/JetBrainsMono-Regular.ttf);
+}
+
+body{
+    margin: auto;
+    max-width: 1280px;
+    box-shadow: 0 0 10px gray;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 3px gray;
+    padding: 3px 0px 3px 0px;
+    position: sticky;
+    top: 0;
+    background-color: whitesmoke;
+}
+
+nav a{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: JetBrainsMono;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0px 10px 0px;
+    transition: all 0.2s linear;
+    color: black;
+    font-size: 17px;
+}
+
+nav a:hover{
+    padding: 10px 15px 10px 15px;
+    background-color: #e76f57;
+    transition: all 0.2s linear;
+    border-radius: 10px;
+}
+
+article{
+    padding: 0px 20px;
+}
+
+h1, h2{
+    font-family: JetBrainsMono;
+    font-size: bold;
+    font-size: 30px;
+}
+
+p, small{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p a{
+    text-decoration: none;
+}
+
+p a:hover{
+    text-decoration: underline;
+}
+
+figcaption a{
+    text-decoration: none;
+}
+
+figcaption a:hover{
+    text-decoration: underline;
+}
+
+a img{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+article, aside{
+    border-right: solid 2px gray;
+    border-left: solid 2px gray;
+}
+
+figure img{
+    border: solid 5px gray;
+}
+
+ul li{
+    margin: 20px 0px 20px 0px;
+    font-size: 18px;
+}
+
+figcaption{
+    text-align: center; 
+}
+
+.textocentro{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.displayflex{
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.h1instalar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.comoinstalar{
+    display: flex;
+}
+
+.winlinux{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 15px;
+    flex: 1;
+}
+
+.linuxetapas{
+    text-align: center;
+    padding: 0px 40px 20px 40px;
+    border-top: solid 3px gray;
+}
+
+.etapas{
+    text-align: center;
+    padding: 0px 40px 20px 40px;
+    border-top: solid 1px gray;
+}
+
+.etapas img{
+    margin: 10px 0px 10px 0px;
+    border: solid 5px gray;
+}
+
+.winlinux a{
+    text-decoration: none;
+    color: black;
+}
+
+.winlinux a:hover{
+    text-decoration: underline;
+}
+
+.proxima-anterior{
+    justify-content: space-around;
+}
