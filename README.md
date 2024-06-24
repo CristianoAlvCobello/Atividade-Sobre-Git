@@ -1,2 +1,2 @@
 # Atividade-Sobre-Git
- Atividade 
+Atividade sobre Git que foi desenvolvida em HTML e CSS
